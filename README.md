@@ -1,10 +1,11 @@
+## Revision
+Minor update on the python codes from 2.x to 3.x based on the RutledgePaulV's work.
+Original codes are separated in 3~4 different files, but I added Jupyter notebook version of python codes in a single file.
+
 ## What
 This is a sudoku generating application. It generates a sudoku puzzle with a unique solution
 of varying difficulties according to the requested difficulty. It guarantees that there is always
 a single unique solution for the puzzles it generates.
-
-## Why
-This was one of my projects for a math modeling class in college.
 
 ## Status
 This is not being actively developed, though there are certainly
@@ -20,7 +21,11 @@ the most difficult puzzle.
 
 ## How do I use it?
 ```bash
+#original version
 python sudoku_generator.py base.txt <difficulty>
+
+#updated version
+python sudoku_generator.py    #where base.txt and difficulty merged into the code
 ```
 
 ## Difficulties & Sample Results
